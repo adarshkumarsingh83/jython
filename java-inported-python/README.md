@@ -16,9 +16,13 @@ public class Wish {
 # To compile the java file 
 * javac -d  . Wish.java
 
-# Create a jar file 
-* jar -cvf wish.jar ./manifest.mf;com/espark/adarsh
+# permission to .class file 
+* sudo chmod 777 com/espark/adarsh/Wish.class
 
-# To invoke the main.py 
-* java -jar ../jython-standalone-2.7.2.jar;./wish.jar main.py
+# Create a jar file 
+* jar -cvf wish.jar ./manifest.mf com/espark/adarsh/Wish.class
+
+# To execute the python code  
+* java -jar ../jython-standalone-2.7.2.jar  main.py
+
 
