@@ -10,6 +10,16 @@
         <servlet-name>PyServlet</servlet-name>
         <servlet-class>org.python.util.PyServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
+       <!-- <init-param>
+            <param-name>python.home</param-name>
+            <param-value>c:\jython-2.1</param-value>
+        </init-param>
+        <init-param>
+            <param-name>python.path</param-name>
+            <param-value>
+                c:\jython-2.1\lib\site-packages
+            </param-value>
+        </init-param>-->
     </servlet>
 
     <servlet-mapping>

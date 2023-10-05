@@ -21,7 +21,7 @@
 <br/>
 <br/>
 <h1>jython form</h1>
-<form action="JythonServlet.py">
+<form action="jython/JythonServlet.py">
     Enter the Name<input type="text" name="userName"/>
     <br/><input type="submit" value="send data"/>
 </form>
